@@ -1,0 +1,872 @@
+body{position:relative}.overlay,
+.sideMenu{position:fixed;bottom:0}
+.overlay{
+  top:0;
+  left:0;
+  opacity:0;
+  right:0%;
+  margin:auto;
+  background-color:rgba(0, 0, 0, 0.825);
+  z-index:998;
+  transition:all ease .4s;
+  pointer-events:none;
+}
+
+.sideMenu,.sidebarNavigation{z-index:999;margin-bottom:0}
+
+.overlay.open{left:0;right:0;opacity:1}
+
+.sidebarNavigation .left-navbar-toggle{float:right;margin-right:0;margin-left:15px}
+
+.sideMenu{right:-50%;top:59px;transition:all ease-in-out .6s;overflow:hidden;width:100%;max-width:50%}
+
+.sideMenu.open{right:0;display:block;overflow-y:auto}
+
+.sideMenu ul{margin:0}
+
+body{
+  background-color:#00b157;
+  margin: 0px;
+  height: 100%;
+}
+
+#lottie{
+  background-color:#f5f5dc 56%, 91%);
+  height:270px;
+  display:block;
+  overflow: hidden;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  transform: translate3d(0,0,0);
+  text-align: center;
+  opacity: 1;
+}
+#hero{
+  height: 270px;
+}
+
+.buttontest{
+  z-index: 2;
+}
+
+.jumbotron{
+background-color: #31708f;
+padding-bottom: 8px;
+}
+
+.logohome{
+  height: 130px;
+  margin-top: 110px;
+}
+
+h2{
+  color: white;
+  letter-spacing: 1.25px;
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  margin-bottom: 20px;
+  font-family: Open Sans;
+}
+
+p{
+  color: white;
+  letter-spacing: 1.25px;
+  font-size: 16px;
+  font-family: Open Sans;
+}
+
+.container{
+  text-align: center;
+  background-color: #00351a;
+  border-radius: 15px;
+  margin-top: 200px;
+  margin-bottom: 700px;
+  height: 120px;
+  max-width: 640px;
+}
+
+footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00351a;
+  height: 400px;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+footer p{
+  font-size: 10px;
+  font-weight: 100;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  vertical-align: text-bottom;
+}
+
+.current{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding: 1rem 1.75rem;
+  padding-right: 15px;
+  padding-left: 0px;
+  letter-spacing: 1.5px;
+  text-decoration-line: underline;
+}
+
+.current-about{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 10px 15px;
+  text-decoration-line: underline;
+}
+
+
+#logo{
+  color:white;
+  margin-top: 2px;
+  margin-left: 4px;
+  margin-right: -15px;
+  height: 36px;
+}
+
+#BluLogo{
+  height:30px;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+.me{
+  margin-top: 70px;
+  margin-bottom: -162px;
+  height:155px;
+  border-radius: 50%;
+  border: #a3fcff solid 2px;
+}
+
+.display-3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding-top: 44px;
+  margin-bottom: 10px;
+}
+
+.lead{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -9px;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.nav{
+    text-align: right;
+    padding-right: 6px;
+}
+
+.nav>li{
+    padding-top:8px;
+}
+
+.navbar-brand{
+  line-height: 25px;
+  margin-bottom: -16px;
+  margin-top:-8px;
+}
+
+.DemoTitle{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: -26px;
+}
+
+.navbar-inverse{
+    border-bottom: none;
+    background-color: #7d000000;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+    background-color:#23282d
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    transition-duration: 350ms;
+    font-size: 16px;
+    margin-top: 5px;
+    letter-spacing: 1.45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: rgb(122, 122, 122);
+}
+
+.nav>li>a:hover{
+  background-color: #a7303000;
+}
+
+a:hover{
+  color:white;
+}
+
+.body{
+    background-color: rgba(227, 251, 249, 0.929)
+}
+
+.JRod {
+    color: white;
+  }
+  
+.JRod:hover {
+  color:#a3fcff ;
+}
+
+.player{
+  margin-top: 40px;
+}
+  
+
+
+  /*Mobile navigation*/
+#demoreel{
+  margin-top: 60px;
+}
+  
+.subheader{
+  color:white;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+  
+.fixed-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-nav {
+  text-align: end;
+  margin-right: 10px;
+  color: white;
+  line-height: 18px;
+  margin-top: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  color: white;
+  margin-left: 22px;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  border-bottom: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: none;
+  color: rgb(215, 11, 188);
+}
+
+.nav-link {
+  padding: 0.85rem 1rem;
+}
+
+.bg-light {
+  background-color:#00351a!important;
+  border-bottom: 2px solid white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  letter-spacing: .75px;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+}
+
+.current{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color:rgb(255, 255, 255);
+  display:inline-block;
+  position:relative;
+  margin-right: 0px;
+  margin-top: 28px;
+  line-height: 37px;
+  padding:0.55rem 1rem;
+  padding-left: .5rem;
+  padding-right: 1.5rem;
+  background-color: none;
+  text-decoration-line: none;
+}
+
+.current:hover{
+  color:white;
+}
+
+.current::after {
+content: "";
+height: 1.5px;
+width: 65%;
+left: 10%;
+bottom: 12px;
+margin-bottom: -0.5px;
+background: #00b157;
+position: absolute;
+}
+
+/*Hamburger menu animation*/
+
+#wrapper {
+  background-color: none;
+  display: inline-block;
+  border-radius: 500px;
+  margin: -11px;
+  margin-left: -60px;
+  position: relative;
+  padding: 0px;
+  cursor: pointer;
+}
+
+#wrapper:focus {
+  outline: none;
+}
+
+#wrapper:focus-within {
+  outline: none;
+}
+
+#wrapper:active {
+  outline: none;
+}
+
+.circle {
+  width: 48px;
+  height: 30px;
+  position: relative;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+.circle:focus {
+  outline: none;
+}
+
+.circle:active {
+  outline: none;
+}
+
+.line {
+  position: absolute;
+  height: 2px;
+  margin-top: 4px;
+  width: 64%;
+  background: beige;
+  border-radius: 0px;
+  transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+}
+
+.top {
+  top: 18%;
+  height: 2.5px;
+}
+
+.middle {
+  top: 48%;
+  height:2.5px;
+}
+
+.bottom {
+  top: 78%;
+  height:2.5px;
+}
+
+.icon.close .top {
+  transform: rotate(45deg);
+  top: 48%;
+}
+
+.icon.close .middle,
+.icon.close .bottom {
+  transform: rotate(-45deg);
+  top: 48%;
+}
+
+.close {
+  opacity: 1;
+}
+
+.close:not(:disabled):not(.disabled):focus,
+.close:not(:disabled):not(.disabled):hover {
+  opacity: 1;
+}
+
+/*---end of Hamburger info---*/
+
+
+.row{
+  padding-bottom: 90px;
+}
+
+.Header{
+  text-align: center;
+  color: #a3fcff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.BrandStatement{
+  background: #414763;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  line-height: 21px;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: .5px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+
+
+  /* Desktop navigation */
+@media (min-width: 576px) {
+  #lottie{
+    height:350px;
+    margin-top: 170px;
+  }
+  #hero{
+    height: 350px;
+  }
+
+  #demoreel{
+    margin-top: 51px;
+  }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .jumbotron h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 33px;
+    padding-top: 95px;
+    color: white;
+  }
+
+  .jumbotron p{
+    margin-top:-10px;
+    margin-bottom: 5px;
+    color:white;
+  }
+
+  .profile-container{
+    margin-bottom:-168px;
+  }
+
+  .fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .display-3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 0px;
+  }
+
+  .navbar{
+      border-radius: 0px;
+  }
+
+  .navbar-nav{
+    float:right;
+    margin-right: -10px;
+  }
+
+  .navbar-brand{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  line-height:21px;
+  margin-top: -10px;
+  }
+
+  .me{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height:200px;
+    border-radius: 50%;
+    border: #a3fcff solid 2px;
+  }
+
+  .lead{
+    font-size: 24px;
+    padding-bottom: 10px;
+    color:#414763;
+  }
+
+  .subheader{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:white;
+    margin-left: 58px;
+    margin-bottom: 0px;
+    margin-top: 23px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+  }
+
+  #logo{
+    color:white;
+    margin-top: 1px;
+    margin-left: 14px;
+    margin-right: 0px;
+    height: 38px;
+  }
+
+  #Layer_2{
+    height:44px;
+    margin-right: 2px;
+    margin-bottom: -65px;
+  }
+
+  #Bolt{
+    height:44px;
+    margin-left: -62px;
+    margin-bottom: -65px;
+  }
+
+  #HourGlass{
+    height:41px;
+    margin-left: -56px;
+    margin-bottom: -61px;
+
+  }
+
+  #LightBlue{
+    color:#a3fcff;
+  }
+
+  #Education{
+  height:35px;
+  margin-left: -63px;
+  margin-bottom: -58px;
+  }
+
+  .Header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #a3fcff;
+    text-align:left;
+    margin-bottom: 40px;
+  }
+
+  .ColorCont{
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .content{
+    padding-top: 0px;
+  }
+
+}
+/*-----Tablet-----*/
+@media (min-width: 768px) {
+  #lottie{
+    height:350px;
+    margin-top: 250px;
+  }
+  
+
+.navbar-light .navbar-nav .nav-link::after{
+  content:'';
+  display: block;
+  width:0;
+  height:2px;
+  background:#00b157;
+  transition:width .25s;
+  margin-bottom: -2px;
+  transition-duration: 350ms;
+}
+
+.lead{
+  padding-bottom: 10px;
+}
+
+.me{
+  margin-bottom: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  border-bottom: none;
+  color:white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after{
+  color:white;  
+  width:100%;
+  transition: width .25s;
+  margin-bottom: -2px;
+}
+
+.display-3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+  margin-top: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link:active{
+  border-bottom: none;
+  color: rgb(255, 255, 255);
+}    
+
+.navbar-light .navbar-nav .nav-link:active::after{
+  color:white;  
+  width:100%;
+  transition: width 0s;
+  margin-bottom: -2px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: rgb(255, 255, 255);
+  margin-bottom: -2px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus::after{
+    color:white;  
+    width:100%;
+    transition: width 0s;
+    margin-bottom: -2px;
+}
+
+.BrandStatement{
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  margin-bottom: 70px;
+  margin-top: 22px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  background: #414763;
+  color: white;
+  text-align: center;
+  letter-spacing: .5px;
+}
+
+.Header{
+  text-align: center;
+}
+
+#Bolt{
+  height:42px;
+  margin-left: -4px;
+  margin-bottom: -107px;
+}
+
+#Education{
+  height:44px;
+  margin-left: -8px;
+  margin-bottom: -108px;
+}
+
+#HourGlass{
+  height:44px;
+  margin-left: -8px;
+  margin-bottom: -108px;
+}
+
+.content{
+  padding-top: 25px;
+}
+
+.current{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color:rgb(255, 255, 255);
+    display:inline-block;
+    position:relative;
+    margin-right: 0px;
+    margin-top: 0px;
+    line-height: 37px;
+    padding:0.55rem 1rem;
+    padding-left: .5rem;
+    padding-right: 1.5rem;
+    padding-top: 7px;
+    background-color: none;
+    text-decoration-line: none;
+}
+
+.current:hover{
+    color:white;
+}
+
+.current::after {
+  content: "";
+  height: 2.5px;
+  width: 70%;
+  left: 8%;
+  bottom: 13px;
+  margin-bottom: -0.5px;
+  background: #00b157;
+  position: absolute;
+}
+
+.current-about{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color:rgb(255, 255, 255);
+  display:inline-block;
+  position:relative;
+  letter-spacing: 1.5px;
+  margin-right: 10px;
+  margin-left: 32px;
+  line-height: 37px;
+  margin-top: 1px;
+  padding:0.55rem 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  background-color:rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+.current-about::after{
+  content:'';
+  height: 1.5px;
+  width:83%;
+  left:8.25%;
+  bottom:13px;
+  margin-bottom: -.5px;
+  background:#00b157;
+  position:absolute;
+  background-color: none;
+}
+
+
+@media (min-width: 768px) {
+    #lottie{
+      height:420px;
+      margin-top: 230px;
+    }
+    #hero{
+      height: 420px;
+    }
+    .nav-link {
+    padding: 0.55rem 1rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin-top: -9px;
+  }
+}
+/*-----XL Desktop------*/
+@media (min-width: 990px) {
+  #lottie{
+    height:420px;
+    margin-top: 210px;
+  }
+  #hero{
+    height: 420px;
+  }
+  .display-3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 0px;
+  }
+
+  .me{
+    margin-bottom: 10px;
+  }
+
+  .BrandStatement{
+    font-size: 20px;
+    font-weight: 300px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 60px;
+    margin-top: 22px;
+    padding-bottom: 70px;
+    text-align: left;
+  }
+
+  #Bolt{
+    height:38px;
+    margin-left: -56px;
+    margin-bottom: -63px;
+  }
+
+  #HourGlass{
+    height:34px;
+    margin-left: -53px;
+    margin-bottom: -58px;
+  }
+
+  #Education{
+    height:32px;
+    margin-left: -63px;
+    margin-bottom: -58px;
+  }
+
+  .content{
+    padding-top: 0px;
+  }
+
+  .Header{
+    text-align: left;
+  }
+}
+@media (min-width: 1024px) {
+  #lottie{
+    height:520px;
+    margin-top: 200px;
+  }
+  #hero{
+    height: 420px;
+  }
+  
+}
