@@ -73,6 +73,7 @@ h2{
   color: white;
   letter-spacing: 1.25px;
   text-decoration-line: underline;
+  text-decoration-color:#00b157 ;
   text-underline-offset: 4px;
   margin-bottom: 20px;
   font-family: Open sans;
@@ -695,7 +696,7 @@ position: absolute;
   width:0;
   height:2px;
   background:#00b157;
-  transition:width .25s;
+  transition: width 2s;
   margin-bottom: -2px;
   transition-duration: 350ms;
 }
@@ -818,8 +819,8 @@ position: absolute;
 .current::after {
   content: "";
   height: 2.5px;
-  width: 70%;
-  left: 8%;
+  width: 71%;
+  left: 7.75%;
   bottom: 13px;
   margin-bottom: -0.5px;
   background: #00b157;
@@ -847,7 +848,7 @@ position: absolute;
 .current-about::after{
   content:'';
   height: 1.5px;
-  width:83%;
+  width:85%;
   left:8.25%;
   bottom:13px;
   margin-bottom: -.5px;
