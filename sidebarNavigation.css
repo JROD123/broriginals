@@ -76,6 +76,7 @@ h2{
   text-decoration-color:#00b157 ;
   text-underline-offset: 4px;
   margin-bottom: 20px;
+  text-align: center;
   font-family: Open sans;
 }
 a{
@@ -83,20 +84,22 @@ a{
 }
 p{
   color: white;
-  letter-spacing: 1.25px;
-  font-size: 16px;
+  letter-spacing: 1.8px;
+  justify-content: start;
+  line-height: 32px;
+  font-size: 22px;
+  font-weight: 100;
   font-family: Open Sans;
-
+  padding-bottom: 20px;
 }
 
 .container{
-  text-align: center;
+
   background-color: #00351a;
   border-radius: 15px;
   margin-top: 200px;
   margin-bottom: 700px;
-  padding-bottom: 50px;
-  height: 150px;
+  padding-bottom: 40px;
   max-width: 640px;
 }
 
@@ -577,6 +580,17 @@ position: absolute;
     z-index: 1030;
   }
 
+  p{
+    color: white;
+    letter-spacing: 1.8px;
+    justify-content: start;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Open Sans;
+    padding-bottom: 20px;
+  }
+
   .display-3{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -688,6 +702,7 @@ position: absolute;
     height:350px;
     margin-top: 250px;
   }
+}
   
 
 .navbar-light .navbar-nav .nav-link::after{
@@ -751,6 +766,8 @@ position: absolute;
     transition: width 0s;
     margin-bottom: -2px;
 }
+
+
 
 .BrandStatement{
   font-family: 'Open Sans', sans-serif;
@@ -856,6 +873,8 @@ position: absolute;
   position:absolute;
   background-color: none;
 }
+
+
 
 
 
