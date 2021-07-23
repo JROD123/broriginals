@@ -77,7 +77,9 @@ h2{
   margin-bottom: 20px;
   font-family: Open sans;
 }
-
+a{
+  font-family: Open Sans;
+}
 p{
   color: white;
   letter-spacing: 1.25px;
