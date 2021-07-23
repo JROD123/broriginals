@@ -82,28 +82,26 @@ h2{
 a{
   font-family: Open Sans;
 }
-p{
-  color: white;
-  letter-spacing: 1.75px;
-  justify-content: start;
-  line-height: 24px;
-  font-size: 16px;
-  font-weight: 100;
-  font-family: Open Sans;
-
-}
 
 .container{
-
   background-color: #00351a;
   border-radius: 15px;
   margin-top: 200px;
   margin-bottom: 700px;
   padding-bottom: 40px;
   max-width: 640px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .about-row p{
+  color: white;
+  letter-spacing: 1.75px;
+  justify-content: start;
+  line-height: 32px;
+  font-size: 22px;
+  font-weight: 100;
+  font-family: Open Sans;
   padding-bottom: 20px;
 }
 
@@ -164,6 +162,7 @@ margin-top: 20px;
 
 .p-footer{
   font-size: 10px;
+  color: white;
 }
 
 .current{
@@ -419,6 +418,8 @@ margin-bottom: -0.5px;
 background: #00b157;
 position: absolute;
 }
+
+
 
 /*Hamburger menu animation*/
 
@@ -688,6 +689,26 @@ position: absolute;
     padding-top: 0px;
   }
 
+  .container{
+    background-color: #00351a;
+    border-radius: 15px;
+    margin-top: 200px;
+    margin-bottom: 700px;
+    padding-bottom: 40px;
+    max-width: 640px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .about-row p{
+    color: white;
+    letter-spacing: 1.75px;
+    justify-content: start;
+    line-height: 26px;
+    font-weight: 100;
+    font-family: Open Sans;
+    font-size: 18px;
+  }
 }
 /*-----Tablet-----*/
 @media (min-width: 768px) {
