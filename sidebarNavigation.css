@@ -65,14 +65,16 @@ h2{
   margin-bottom: 50px;
   font-family: Open sans;
   text-align: center;
+  padding-top: 50px;
+  font-size: 44px;
 }
 a{
   font-family: Open Sans;
 }
 .container{
   background-color: #00351a;
-  border-radius: 15px;
-  margin-top: 150px;
+  border-radius: 0px;
+  margin-top: 60px;
   margin-bottom: 500px;
   padding-bottom: 40px;
   max-width: 640px;
@@ -462,7 +464,7 @@ position: absolute;
 
 
 
-
+/*Desktop*/
 @media (min-width: 768px) {
   
   .profile-container{
@@ -535,19 +537,9 @@ position: absolute;
     padding-left: 40px;
     padding-right: 40px;
   }
-
-  .container{
-    background-color: #00351a;
-    border-radius: 15px;
-    margin-top: 200px;
-    margin-bottom: 700px;
-    padding-bottom: 40px;
-    max-width: 640px;
-    padding-left: 40px;
-    padding-right: 40px;
+  h2{
+    font-size: 24px;
   }
-
-
   .about-row p{
     color: white;
     letter-spacing: 1.75px;
