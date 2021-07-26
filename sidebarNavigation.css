@@ -59,10 +59,10 @@ h2{
   color: white;
   letter-spacing: .9px;
   text-decoration-line: underline;
-  text-decoration-color:#00b157 ;
+  text-decoration-color: #00b157 ;
   text-decoration-thickness: 8px;
-  text-underline-offset: 10px;
-  margin-bottom: 110px;
+  text-underline-offset: 15px;
+  margin-bottom: 90px;
   font-family: Open sans;
   text-align: center;
   padding-top: 50px;
@@ -76,7 +76,7 @@ a{
   background-color: #00351a;
   border-radius: 0px;
   margin-top: 60px;
-  margin-bottom: 500px;
+  margin-bottom: 300px;
   padding-bottom: 40px;
   max-width: 640px;
   padding-left: 20px;
@@ -113,29 +113,29 @@ i{
   padding-right: 15px;
 }
 .bi-instagram{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 100;
 
   width: 100%;
-  color: rgb(255, 255, 255);
+  color: #00b157;
   margin-bottom: 44px;
   
 }
 .bi-facebook{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 100;
 
   width: 100%;
-  color: rgb(255, 255, 255);
+  color: #00b157;
   margin-bottom: 44px;
  
 }
 .bi-youtube{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 100;
 
   width: 100%;
-  color: rgb(255, 255, 255);
+  color: #00b157;
   margin-bottom: 44px;
  
 }
@@ -145,6 +145,7 @@ margin-top: 20px;
 .p-footer{
   font-size: 10px;
   color: white;
+  margin-bottom: 20px;
 }
 .current{
   font-family: 'Open Sans', sans-serif;
@@ -531,11 +532,11 @@ position: absolute;
 
   .container{
     background-color: #00351a;
-    border-radius: 15px;
+    border-radius: 25px;
     margin-top: 200px;
     margin-bottom: 700px;
     padding-bottom: 40px;
-    max-width: 640px;
+    max-width: 740px;
     padding-left: 40px;
     padding-right: 40px;
   }
