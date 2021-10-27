@@ -76,6 +76,8 @@ h3{
   font-family: Open sans;
   letter-spacing: 1px;
   margin-bottom: 26px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 a{
   font-family: Open Sans;
@@ -86,14 +88,16 @@ a{
   margin-top: 60px;
   margin-bottom: 300px;
   padding-bottom: 40px;
-  max-width: 640px;
-  padding-left: 20px;
-  padding-right: 20px;
+  
+  padding-left: 0px;
+  padding-right: 0px;
 }
+
 #srv{
   width: 100%;
-  border-radius: 3%;
+  border-radius: 0%;
   margin-bottom: 20px;
+ 
 }
 .about-row p{
   color: white;
@@ -102,8 +106,14 @@ a{
   line-height: 32px;
   font-size: 22px;
   font-weight: 300;
+  margin-left: 10px;
+  margin-right: 10px;
   font-family: Open Sans;
   padding-bottom: 20px;
+}
+.col-12{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 footer{
   position: relative;
@@ -549,12 +559,17 @@ position: absolute;
     margin-top: 200px;
     margin-bottom: 700px;
     padding-bottom: 40px;
-    max-width: 740px;
-    padding-left: 40px;
-    padding-right: 40px;
+    max-width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   #srv{
-    width: 50%;
+    width:80%;
+    border-radius: 3%;
+    border:2px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 80%;
   }
   h2{
     font-size: 34px;
@@ -567,15 +582,21 @@ position: absolute;
     font-size: 22px;
     margin-bottom: 20px;
   }
- 
+  
   .about-row p{
     color: white;
     letter-spacing: 1.75px;
+    margin-top: 10px;
     justify-content: start;
     line-height: 26px;
     font-weight: 100;
     font-family: Open Sans;
     font-size: 18px;
+  }
+  .about-row h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
   }
 }
 /*-----Tablet-----*/
@@ -718,7 +739,9 @@ position: absolute;
     .nav-link {
     padding: 0.55rem 1rem;
     }
-
+    .container{
+      width: 970px;
+    }
 }
 
 @media (min-width: 768px) {
